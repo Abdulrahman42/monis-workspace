@@ -22,7 +22,7 @@ export const CHAIRS: Chair[] = [
   { id: "stool", name: "Active Stool", price: 60000, icon: ic("stool"), src: "/assets/chairs/stool.svg", w: 102, h: 60 },
 ];
 export const ITEMS: Item[] = [
-  { id: "monitor", name: "Monitor", label: "Add Monitor!", price: 100000, max: 3, group: "desk", icon: ic("monitor"), src: "/assets/items/monitor.svg", w: 98, h: 84, slots: [[0], [-55, 55], [-110, 110]] },
+  { id: "monitor", name: "Monitor", label: "Add Monitor!", price: 100000, max: 3, group: "desk", icon: ic("monitor"), src: "/assets/items/monitor.svg", w: 98, h: 84, slots: [[0], [-55, 55], [-110, 0, 110]] },
   { id: "laptop", name: "Laptop", label: "Add Laptop!", price: 150000, max: 1, group: "desk", icon: ic("laptop"), src: "/assets/items/laptop.svg", w: 70, h: 34, dx: -100 },
   { id: "keyboard", name: "Keyboard & mouse", label: "Add Keyboard!", price: 30000, max: 1, group: "desk", icon: ic("keyboard"), src: "/assets/items/keyboard.svg", w: 118, h: 10, dx: 10 },
   { id: "lamp", name: "Desk lamp", label: "Add Lamp!", price: 25000, max: 1, group: "desk", icon: ic("lamp"), src: "/assets/items/lamp.svg", w: 86, h: 86, anchor: "right", dx: -40 },

@@ -71,7 +71,7 @@ export function Scene() {
       style={{ aspectRatio: `${W} / ${H}` }}
       role="img"
       aria-label="Workspace preview">
-      <AnimatePresence mode="popLayout">
+      <AnimatePresence>
         <Layer
           key={desk.id}
           id={desk.id}
