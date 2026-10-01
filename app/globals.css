@@ -1,0 +1,28 @@
+@import "tailwindcss";
+:root {
+  --ink: #692d2d;
+  --paper: #fff;
+  --wash: #efefef;
+  --soft: #777;
+  --dash: #b5b5b5;
+}
+@theme inline {
+  --color-ink: var(--ink);
+  --color-paper: var(--paper);
+  --color-wash: var(--wash);
+  --color-soft: var(--soft);
+  --color-dash: var(--dash);
+  --font-sans: var(--f), system-ui, sans-serif;
+}
+@layer base {
+  body {
+    @apply bg-paper text-ink font-sans antialiased;
+  }
+  button {
+    cursor: pointer;
+  }
+  :focus-visible {
+    outline: 3px solid var(--ink);
+    outline-offset: 3px;
+  }
+}
